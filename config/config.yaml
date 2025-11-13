@@ -20,7 +20,7 @@ esrs_modules:
 
 # Report Settings
 report:
-  company_name: "Your Company Name"
+  company_name: "TT"
   reporting_period: "2024"
   output_folder: "output"
   output_filename: "ESRS_Report_{date}.pdf"
