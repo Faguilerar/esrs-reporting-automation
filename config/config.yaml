@@ -1,0 +1,33 @@
+# ESRS Reporting Configuration
+
+# Data Sources
+data_sources:
+  excel_folder: "data/raw"
+  file_pattern: "*.xlsx"
+
+# ESRS Modules to include
+esrs_modules:
+  - E1  # Climate change
+  - E2  # Pollution
+  - E3  # Water and marine resources
+  - E4  # Biodiversity and ecosystems
+  - E5  # Resource use and circular economy
+  - S1  # Own workforce
+  - S2  # Workers in value chain
+  - S3  # Affected communities
+  - S4  # Consumers and end-users
+  - G1  # Business conduct
+
+# Report Settings
+report:
+  company_name: "Your Company Name"
+  reporting_period: "2024"
+  output_folder: "output"
+  output_filename: "ESRS_Report_{date}.pdf"
+
+# PDF Settings
+pdf:
+  page_size: "A4"
+  font_size: 11
+  title_font_size: 16
+  heading_font_size: 14
